@@ -13,7 +13,7 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                String manifestPath = new File(output.processManifest.manifestOutputDirectory.get().asFile, "AndroidManifest.xml")
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
